@@ -1,2 +1,1 @@
-# docker-haproxy
-IF Fulcrum Docker HAProxy
+# IF Fulcrum Docker HAProxy
