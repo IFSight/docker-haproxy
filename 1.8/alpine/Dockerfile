@@ -1,6 +1,8 @@
 FROM haproxy:1.8-alpine
 MAINTAINER IF Fulcrum "fulcrum@ifsight.net"
 
+ENV BUILDDATE 20200114153920
+
 RUN apk update && apk upgrade && apk add socat && \
     adduser -s /sbin/nologin -D -h /dev/null -H haproxy
 
