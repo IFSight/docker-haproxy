@@ -1,4 +1,4 @@
-FROM haproxy:1.8-alpine
+FROM haproxy:1.8.25-alpine
 MAINTAINER IF Fulcrum "fulcrum@ifsight.net"
 
 ENV BUILDDATE 202008031605
